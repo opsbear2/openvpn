@@ -96,7 +96,7 @@ yum -y install openvpn
 ##### 2.2 连接服务端
 
 ```shell
-openvpn --daemon --config /etc/openvpn/usmhmnz.ovpn --log-append /var/log/openvpn.log
+openvpn --daemon --config /etc/openvpn/client.ovpn --log-append /var/log/openvpn.log
 ```
 
 连接后`ifconfig`后有一个`tun0`的虚拟网口，查看`route -n`会有对应访问服务端的路由规则
