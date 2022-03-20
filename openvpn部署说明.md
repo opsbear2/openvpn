@@ -46,7 +46,7 @@ COMMIT
 ```shell
 默认配置基础下添加
 
->duplicate-cn #允许多个客户端同时连接，为客户端分配不同的ip
+>duplicate-cn #允许多个客户端同时连接，为客户端分配不同ip
 ```
 
 服务端配置文件修改完，需要重启openvpn
@@ -109,4 +109,4 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 
 ##### 2.3 业务测试
 
-以韩国梦战迁移业务为例，客户端(腾讯云)拨vpn后，可以访问服务端(Ucloud)网段下mongodb的27017端口
+以本次迁移业务为例，客户端(腾讯云)拨vpn后，可以访问服务端(Ucloud)网段下mongodb的27017端口
