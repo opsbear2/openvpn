@@ -1,4 +1,4 @@
-- 卓客户端 openvpn.apk
+- 安卓客户端 openvpn.apk
 
 - windows客户端openvpn.exe 
 
