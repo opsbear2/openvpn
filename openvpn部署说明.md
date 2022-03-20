@@ -46,7 +46,7 @@ COMMIT
 ```shell
 默认配置基础下添加
 
->duplicate-cn #允许多个客户端同时连接，为客户端分配不同的ip
+>duplicate-cn #允许多个客户端同时连接，为客户端分配不同ip
 ```
 
 服务端配置文件修改完，需要重启openvpn
