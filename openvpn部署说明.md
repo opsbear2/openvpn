@@ -109,4 +109,4 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 
 ##### 2.3 业务测试
 
-以韩国梦战迁移业务为例，客户端(腾讯云)拨vpn后，可以访问服务端(Ucloud)网段下mongodb的27017端口
+以本次迁移业务为例，客户端(腾讯云)拨vpn后，可以访问服务端(Ucloud)网段下mongodb的27017端口
